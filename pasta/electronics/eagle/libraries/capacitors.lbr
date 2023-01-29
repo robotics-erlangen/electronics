@@ -1,0 +1,1916 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="20" display="no" altdistance="0.5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="3DtLayerData" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="3DbLayerData" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Hidden" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Changes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="BMKZ" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="ProE-Gehaeuse" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Änderung" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="Component" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="117" name="housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="PCB" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="Layout_Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="BM_FACTORY_KEY" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="SINGLETON" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="BM_NAME" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="BM_LOCATION" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="S_TAGS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="Document_mirrored" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="156" name="gesam-Maß" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="157" name="FaceMchng" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="158" name="FaceMMeas" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="159" name="Geh-Bear2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="160" name="Topologie" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="220" name="220bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="221" name="221bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="253" name="BR-LS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="tmp" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="C0603">
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1" roundness="50"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1" roundness="50"/>
+<wire x1="-2" y1="-1" x2="-2" y2="1" width="0.1" layer="21"/>
+<wire x1="-2" y1="1" x2="2" y2="1" width="0.1" layer="21"/>
+<wire x1="2" y1="1" x2="2" y2="-1" width="0.1" layer="21"/>
+<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.1" layer="21"/>
+<wire x1="-0.8" y1="0.4" x2="-0.45" y2="0.4" width="0.05" layer="51"/>
+<wire x1="-0.45" y1="0.4" x2="0.45" y2="0.4" width="0.05" layer="51"/>
+<wire x1="0.45" y1="0.4" x2="0.8" y2="0.4" width="0.05" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="0.45" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="0.45" y1="-0.4" x2="-0.45" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="-0.45" y1="-0.4" x2="-0.8" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.05" layer="51"/>
+<wire x1="-0.45" y1="0.4" x2="-0.45" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="0.45" y1="-0.4" x2="0.45" y2="0.4" width="0.05" layer="51"/>
+<rectangle x1="-2" y1="-1" x2="2" y2="1" layer="39"/>
+<text x="0" y="1" size="1.016" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="1.016" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="C0805">
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1" roundness="50"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1" roundness="50"/>
+<wire x1="-1" y1="0.625" x2="-0.5" y2="0.625" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.625" x2="0.5" y2="0.625" width="0.05" layer="51"/>
+<wire x1="0.5" y1="0.625" x2="1" y2="0.625" width="0.05" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.05" layer="51"/>
+<wire x1="1" y1="-0.625" x2="0.5" y2="-0.625" width="0.05" layer="51"/>
+<wire x1="0.5" y1="-0.625" x2="-0.5" y2="-0.625" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="-0.625" x2="-1" y2="-0.625" width="0.05" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.625" x2="-0.5" y2="-0.625" width="0.05" layer="51"/>
+<wire x1="0.5" y1="0.625" x2="0.5" y2="-0.625" width="0.05" layer="51"/>
+<rectangle x1="-2" y1="-1" x2="2" y2="1" layer="39"/>
+<wire x1="-2" y1="1" x2="2" y2="1" width="0.1" layer="21"/>
+<wire x1="2" y1="1" x2="2" y2="-1" width="0.1" layer="21"/>
+<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.1" layer="21"/>
+<wire x1="-2" y1="-1" x2="-2" y2="1" width="0.1" layer="21"/>
+<text x="0" y="1.25" size="1.016" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.25" size="1.016" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="C1210">
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="50"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1" roundness="50"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="2" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="2" x2="2.5" y2="2" width="0.1" layer="21"/>
+<wire x1="2.5" y1="2" x2="2.5" y2="-2" width="0.1" layer="21"/>
+<wire x1="2.5" y1="-2" x2="-2.5" y2="-2" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="1.25" x2="-1.1" y2="1.25" width="0.05" layer="51"/>
+<wire x1="-1.1" y1="1.25" x2="1.1" y2="1.25" width="0.05" layer="51"/>
+<wire x1="1.1" y1="1.25" x2="1.6" y2="1.25" width="0.05" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="1.1" y2="-1.25" width="0.05" layer="51"/>
+<wire x1="1.1" y1="-1.25" x2="-1.1" y2="-1.25" width="0.05" layer="51"/>
+<wire x1="-1.1" y1="-1.25" x2="-1.6" y2="-1.25" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.05" layer="51"/>
+<wire x1="-1.1" y1="1.25" x2="-1.1" y2="-1.25" width="0.05" layer="51"/>
+<wire x1="1.1" y1="1.25" x2="1.1" y2="-1.25" width="0.05" layer="51"/>
+<rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39"/>
+<text x="0" y="2.25" size="1.016" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.25" size="1.016" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="C1206">
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="50"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1" roundness="50"/>
+<wire x1="-2.5" y1="-1.5" x2="-2.5" y2="1.5" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.1" layer="21"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="2.5" y1="-1.5" x2="-2.5" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="0.8" x2="-1.1" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-1.1" y1="0.8" x2="1.1" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.1" y1="0.8" x2="1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="1.1" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.1" y1="-0.8" x2="-1.1" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.1" y1="-0.8" x2="-1.6" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.05" layer="51"/>
+<wire x1="-1.1" y1="0.8" x2="-1.1" y2="-0.8" width="0.05" layer="51"/>
+<wire x1="1.1" y1="0.8" x2="1.1" y2="-0.8" width="0.05" layer="51"/>
+<rectangle x1="-2.5" y1="-1.5" x2="2.5" y2="1.5" layer="39"/>
+<text x="0" y="1.75" size="1.016" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.75" size="1.016" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="C1812">
+<smd name="1" x="-1.95" y="0" dx="1.9" dy="3.4" layer="1" roundness="50"/>
+<smd name="2" x="1.95" y="0" dx="1.9" dy="3.4" layer="1" roundness="50"/>
+<rectangle x1="-3.5" y1="-2" x2="3.5" y2="2" layer="39"/>
+<wire x1="-2.25" y1="1.6" x2="-1.65" y2="1.6" width="0.05" layer="51"/>
+<wire x1="-1.65" y1="1.6" x2="1.65" y2="1.6" width="0.05" layer="51"/>
+<wire x1="1.65" y1="1.6" x2="2.25" y2="1.6" width="0.05" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="2.25" y1="-1.6" x2="1.65" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="1.65" y1="-1.6" x2="-1.65" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="-1.65" y1="-1.6" x2="-2.25" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="-2.25" y2="1.6" width="0.05" layer="51"/>
+<wire x1="-1.65" y1="1.6" x2="-1.65" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="1.65" y1="1.6" x2="1.65" y2="-1.6" width="0.05" layer="51"/>
+<wire x1="-3.5" y1="2" x2="3.5" y2="2" width="0.1" layer="21"/>
+<wire x1="3.5" y1="2" x2="3.5" y2="-2" width="0.1" layer="21"/>
+<wire x1="3.5" y1="-2" x2="-3.5" y2="-2" width="0.1" layer="21"/>
+<wire x1="-3.5" y1="-2" x2="-3.5" y2="2" width="0.1" layer="21"/>
+<text x="0" y="2.25" size="1.016" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.25" size="1.016" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="C0402">
+<smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1" roundness="50"/>
+<smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1" roundness="50"/>
+<rectangle x1="-1" y1="-0.5" x2="1" y2="0.5" layer="39"/>
+<wire x1="-0.5" y1="0.25" x2="-0.25" y2="0.25" width="0.05" layer="51"/>
+<wire x1="-0.25" y1="0.25" x2="0.25" y2="0.25" width="0.05" layer="51"/>
+<wire x1="0.25" y1="0.25" x2="0.5" y2="0.25" width="0.05" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.05" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="0.25" y2="-0.25" width="0.05" layer="51"/>
+<wire x1="0.25" y1="-0.25" x2="-0.25" y2="-0.25" width="0.05" layer="51"/>
+<wire x1="-0.25" y1="-0.25" x2="-0.5" y2="-0.25" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.05" layer="51"/>
+<wire x1="-0.25" y1="0.25" x2="-0.25" y2="-0.25" width="0.05" layer="51"/>
+<wire x1="0.25" y1="0.25" x2="0.25" y2="-0.25" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.5" x2="1" y2="0.5" width="0.1" layer="21"/>
+<wire x1="1" y1="0.5" x2="1" y2="-0.5" width="0.1" layer="21"/>
+<wire x1="1" y1="-0.5" x2="-1" y2="-0.5" width="0.1" layer="21"/>
+<wire x1="-1" y1="-0.5" x2="-1" y2="0.5" width="0.1" layer="21"/>
+<text x="0" y="0.75" size="1.016" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.75" size="1.016" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="C-EU">
+<rectangle x1="-2.032" y1="-0.762" x2="2.032" y2="-0.254" layer="94"/>
+<rectangle x1="-2.032" y1="0.254" x2="2.032" y2="0.762" layer="94"/>
+<wire x1="0" y1="0.762" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.762" width="0.1524" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;LINE1</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;LINE2</text>
+<text x="2.54" y="2.54" size="1.778" layer="96">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="C(*?)" prefix="C">
+<description>&lt;h1 style="line-height: 120%;"&gt;&lt;center&gt;Robotics Erlangen Capacitor Library&lt;/center&gt;&lt;/h1&gt;
+
+&lt;p align = "justify" style="line-height: 120%;"&gt;This library provides a list of predefined capacitors with the following features:&lt;/p&gt;
+&lt;p align = "justify"&gt;&lt;ul&gt;
+        &lt;li style="line-height: 120%;"&gt;It is guaranteed that the capacitor exists with the given value, voltage rating and package size&lt;/li&gt;
+        &lt;li style="line-height: 120%;"&gt;If you choose the capacitor you need (e.g. 2u2 with at least 50V) the package will be automatically choosen&lt;/li&gt;
+        &lt;li style="line-height: 120%;"&gt;The manufacturer's data is automatically added so that exactly that capacitor will be ordered&lt;/li&gt;
+        &lt;li style="line-height: 120%;"&gt;The value of the capacitor will be automatically filled with the most relevant data&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+
+&lt;p align = "justify" style="line-height: 120%;"&gt;To choose a capacitor, you need to think about the voltage it must be rated for acc. to your application. Use below table to get a minimum voltage rating for the capacitor, depending on the maximum voltage that will be applied to it in your application.&lt;/p&gt;
+
+&lt;p&gt;&lt;table border = "1" cellpadding = "5" cellspacing = "0" width = "100%"&gt;
+        &lt;thead style = "font-weight: bold;"&gt;
+                &lt;tr bgcolor = "lightgray"&gt;&lt;td width = "33%"&gt;Maximum Voltage Applied&lt;/td&gt;&lt;td width = "33%"&gt;Notes&lt;/td&gt;&lt;td width = "33%"&gt;Minimum Voltage Rating&lt;/td&gt;&lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+                &lt;tr&gt;&lt;td&gt;&amp;le;&amp;nbsp;3.3V&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;ge;&amp;nbsp;6V3&lt;/td&gt;&lt;/li&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td&gt;&amp;le;&amp;nbsp;5.0V&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;ge;&amp;nbsp;10V&lt;/td&gt;&lt;/li&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td&gt;&amp;le;&amp;nbsp;16.8V&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&amp;ge;&amp;nbsp;25V&lt;/td&gt;&lt;/li&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td&gt;&amp;le;&amp;nbsp;33.6V&lt;/td&gt;&lt;td&gt;Includes all signals that are at max. VCC&lt;/td&gt;&lt;td&gt;&amp;ge;&amp;nbsp;50V&lt;/td&gt;&lt;/li&gt;&lt;/tr&gt;
+        &lt;/tbody&gt;
+&lt;/table&gt;&lt;/p&gt;
+
+&lt;p align = "justify" style="line-height: 120%;"&gt;After you determined the minimum voltage rating of the capacitor, search for it in the database of this library and choose the first one, that has at least that rating. The library is primarily sorted by capacitance values. &lt;b&gt;Never change the value of predefined capacitors!&lt;/b&gt;&lt;/p&gt;
+
+&lt;p align = "justify" style="line-height: 120%;"&gt;&lt;b&gt;Note:&lt;/b&gt; If your project requires a very specific capacitor (e.g. low tolerance, high voltage or E-24 upwards), then choose any of the predefined empty devices C(0402), C(0603), C(0805), C(1206), C(1210), or C(1812). &lt;b&gt;Always set the attributes MF, MPN and VALUE for custom capacitors!&lt;/b&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CAPACITANCE" value="" constant="no"/>
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="LINE1" value="" constant="no"/>
+<attribute name="LINE2" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="1.0NF,50V,">
+<attribute name="CAPACITANCE" value="1n"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="1n ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006063"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="1n ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="1.0PF,50V,">
+<attribute name="CAPACITANCE" value="1p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="1p ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006045"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="1p ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="1.0UF,25V,">
+<attribute name="CAPACITANCE" value="1u"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="1u ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206076"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1u ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="1.0UF,50V,">
+<attribute name="CAPACITANCE" value="1u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="1u ±10%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL10A105KB8NNNC"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1u ±10% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="1.2NF,50V,">
+<attribute name="CAPACITANCE" value="1n2"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="1n2 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C122K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1n2 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="1.2PF,50V,">
+<attribute name="CAPACITANCE" value="1p2"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="1p2 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C129D5GACTU"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="1p2 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="1.5NF,50V,">
+<attribute name="CAPACITANCE" value="1n5"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="1n5 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206084"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1n5 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="1.5PF,50V,">
+<attribute name="CAPACITANCE" value="1p5"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="1p5 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006046"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="1p5 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="1.8NF,50V,">
+<attribute name="CAPACITANCE" value="1n8"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="1n8 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C182K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1n8 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="1.8PF,50V,">
+<attribute name="CAPACITANCE" value="1p8"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="1p8 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C189D5GACTU"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="1p8 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="100NF,50V,">
+<attribute name="CAPACITANCE" value="100n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="100n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206095"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="100n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="100PF,50V,">
+<attribute name="CAPACITANCE" value="100p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="100p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006057"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="100p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="10NF,50V,">
+<attribute name="CAPACITANCE" value="10n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="10n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206089"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="10n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="10PF,50V,">
+<attribute name="CAPACITANCE" value="10p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="10p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006051"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="10p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="10UF,6.3V,">
+<attribute name="CAPACITANCE" value="10u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="10u ±20%"/>
+<attribute name="LINE2" value="6V3 X5R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012106006"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="10u ±20% 6V3 X5R"/>
+<attribute name="VOLTAGE" value="6V3"/>
+</technology>
+<technology name="120NF,50V,">
+<attribute name="CAPACITANCE" value="120n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="120n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C124K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="120n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="120PF,50V,">
+<attribute name="CAPACITANCE" value="120p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="120p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C121J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="120p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="12NF,50V,">
+<attribute name="CAPACITANCE" value="12n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="12n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C123K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="12n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="12PF,50V,">
+<attribute name="CAPACITANCE" value="12p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="12p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C120J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="12p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="150NF,25V,">
+<attribute name="CAPACITANCE" value="150n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="150n ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206072"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="150n ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="150NF,50V,">
+<attribute name="CAPACITANCE" value="150n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="150n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL10B154KB8VPNC"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="150n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="150PF,50V,">
+<attribute name="CAPACITANCE" value="150p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="150p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006058"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="150p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="15NF,50V,">
+<attribute name="CAPACITANCE" value="15n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="15n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206090"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="15n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="15PF,50V,">
+<attribute name="CAPACITANCE" value="15p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="15p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006052"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="15p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="15UF,6.3V,">
+<attribute name="CAPACITANCE" value="15u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="15u ±20%"/>
+<attribute name="LINE2" value="6V3 X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1608X5R0J156M080AC"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="15u ±20% 6V3 X5R"/>
+<attribute name="VOLTAGE" value="6V3"/>
+</technology>
+<technology name="180NF,25V,">
+<attribute name="CAPACITANCE" value="180n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="180n ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C184K3RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="180n ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="180PF,50V,">
+<attribute name="CAPACITANCE" value="180p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="180p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C181J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="180p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="18NF,50V,">
+<attribute name="CAPACITANCE" value="18n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="18n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C183K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="18n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="18PF,50V,">
+<attribute name="CAPACITANCE" value="18p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="18p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C180J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="18p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="2.2NF,50V,">
+<attribute name="CAPACITANCE" value="2n2"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="2n2 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206085"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="2n2 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="2.2PF,50V,">
+<attribute name="CAPACITANCE" value="2p2"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="2p2 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006047"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="2p2 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="2.2UF,6.3V,">
+<attribute name="CAPACITANCE" value="2u2"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="2u2 ±20%"/>
+<attribute name="LINE2" value="6V3 X5R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012106004"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="2u2 ±20% 6V3 X5R"/>
+<attribute name="VOLTAGE" value="6V3"/>
+</technology>
+<technology name="2.7NF,50V,">
+<attribute name="CAPACITANCE" value="2n7"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="2n7 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C272K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="2n7 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="2.7PF,50V,">
+<attribute name="CAPACITANCE" value="2p7"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="2p7 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C279D5GACTU"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="2p7 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="220NF,25V,">
+<attribute name="CAPACITANCE" value="220n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="220n ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206073"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="220n ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="220NF,50V,">
+<attribute name="CAPACITANCE" value="220n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="220n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="AC0603KRX7R9BB224"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="220n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="220PF,50V,">
+<attribute name="CAPACITANCE" value="220p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="220p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006059"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="220p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="22NF,50V,">
+<attribute name="CAPACITANCE" value="22n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="22n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206091"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="22n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="22PF,50V,">
+<attribute name="CAPACITANCE" value="22p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="22p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006053"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="22p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="22UF,6.3V,">
+<attribute name="CAPACITANCE" value="22u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="22u ±20%"/>
+<attribute name="LINE2" value="6V3 X5R"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM188R60J226MEA0D"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="22u ±20% 6V3 X5R"/>
+<attribute name="VOLTAGE" value="6V3"/>
+</technology>
+<technology name="270NF,25V,">
+<attribute name="CAPACITANCE" value="270n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="270n ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="Walsin"/>
+<attribute name="MPN" value="0603B274K250CT"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="270n ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="270PF,50V,">
+<attribute name="CAPACITANCE" value="270p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="270p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C271J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="270p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="27NF,50V,">
+<attribute name="CAPACITANCE" value="27n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="27n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C273K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="27n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="27PF,50V,">
+<attribute name="CAPACITANCE" value="27p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="27p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C270J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="27p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="3.3NF,50V,">
+<attribute name="CAPACITANCE" value="3n3"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="3n3 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206086"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="3n3 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="3.3PF,50V,">
+<attribute name="CAPACITANCE" value="3p3"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="3p3 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006048"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="3p3 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="3.3UF,25V,">
+<attribute name="CAPACITANCE" value="3u3"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="3u3 ±10%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1608X5R1E335K080AC"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="3u3 ±10% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="3.9NF,50V,">
+<attribute name="CAPACITANCE" value="3n9"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="3n9 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C392K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="3n9 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="3.9PF,50V,">
+<attribute name="CAPACITANCE" value="3p9"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="3p9 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C399D5GACTU"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="3p9 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="330NF,25V,">
+<attribute name="CAPACITANCE" value="330n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="330n ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206074"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="330n ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="330NF,50V,">
+<attribute name="CAPACITANCE" value="330n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="330n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="CGA3E3X7R1H334K080AB"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="330n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="330PF,50V,">
+<attribute name="CAPACITANCE" value="330p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="330p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006060"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="330p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="33NF,50V,">
+<attribute name="CAPACITANCE" value="33n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="33n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206092"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="33n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="33PF,50V,">
+<attribute name="CAPACITANCE" value="33p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="33p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006054"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="33p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="390NF,25V,">
+<attribute name="CAPACITANCE" value="390n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="390n ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="Walsin"/>
+<attribute name="MPN" value="0603B394K250CT"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="390n ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="390PF,50V,">
+<attribute name="CAPACITANCE" value="390p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="390p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C391J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="390p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="39NF,50V,">
+<attribute name="CAPACITANCE" value="39n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="39n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C393K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="39n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="39PF,50V,">
+<attribute name="CAPACITANCE" value="39p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="39p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C390J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="39p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="4.7NF,50V,">
+<attribute name="CAPACITANCE" value="4n7"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="4n7 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206087"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="4n7 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="4.7PF,50V,">
+<attribute name="CAPACITANCE" value="4p7"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="4p7 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006049"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="4p7 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="4.7UF,6.3V,">
+<attribute name="CAPACITANCE" value="4u7"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="4u7 ±20%"/>
+<attribute name="LINE2" value="6V3 X5R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012106005"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="4u7 ±20% 6V3 X5R"/>
+<attribute name="VOLTAGE" value="6V3"/>
+</technology>
+<technology name="470NF,25V,">
+<attribute name="CAPACITANCE" value="470n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="470n ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206075"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="470n ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="470NF,50V,">
+<attribute name="CAPACITANCE" value="470n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="470n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Taiyo Yuden"/>
+<attribute name="MPN" value="UMK107B7474KA-TR"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="470n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="470PF,50V,">
+<attribute name="CAPACITANCE" value="470p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="470p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006061"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="470p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="47NF,50V,">
+<attribute name="CAPACITANCE" value="47n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="47n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206093"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="47n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="47PF,50V,">
+<attribute name="CAPACITANCE" value="47p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="47p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006055"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="47p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="47UF,6.3V,">
+<attribute name="CAPACITANCE" value="47u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="47u ±20%"/>
+<attribute name="LINE2" value="6V3 X5R"/>
+<attribute name="MF" value="Murata"/>
+<attribute name="MPN" value="GRM188R60J476ME15J"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="47u ±20% 6V3 X5R"/>
+<attribute name="VOLTAGE" value="6V3"/>
+</technology>
+<technology name="5.6NF,50V,">
+<attribute name="CAPACITANCE" value="5n6"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="5n6 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C562K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="5n6 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="5.6PF,50V,">
+<attribute name="CAPACITANCE" value="5p6"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="5p6 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C569D5GACTU"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="5p6 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="560NF,16V,">
+<attribute name="CAPACITANCE" value="560n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="560n ±10%"/>
+<attribute name="LINE2" value="16V X7R"/>
+<attribute name="MF" value="Walsin"/>
+<attribute name="MPN" value="0603B564K160CT"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="560n ±10% 16V X7R"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+<technology name="560PF,50V,">
+<attribute name="CAPACITANCE" value="560p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="560p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C561J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="560p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="56NF,50V,">
+<attribute name="CAPACITANCE" value="56n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="56n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C563K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="56n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="56PF,50V,">
+<attribute name="CAPACITANCE" value="56p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="56p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C560J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="56p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="6.8NF,50V,">
+<attribute name="CAPACITANCE" value="6n8"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="6n8 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206088"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="6n8 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="6.8PF,50V,">
+<attribute name="CAPACITANCE" value="6p8"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="6p8 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006050"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="6p8 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="6.8UF,25V,">
+<attribute name="CAPACITANCE" value="6u8"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="6u8 ±10%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1608X5R1E685K080AC"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="6u8 ±10% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="680NF,25V,">
+<attribute name="CAPACITANCE" value="680n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="680n ±20%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012106021"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="680n ±20% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="680NF,50V,">
+<attribute name="CAPACITANCE" value="680n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="680n ±10%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="CGA3E3X5R1H684K080AB"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="680n ±10% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="680PF,50V,">
+<attribute name="CAPACITANCE" value="680p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="680p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006062"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="680p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="68NF,50V,">
+<attribute name="CAPACITANCE" value="68n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="68n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012206094"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="68n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="68PF,50V,">
+<attribute name="CAPACITANCE" value="68p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="68p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Würth Elektronik"/>
+<attribute name="MPN" value="885012006056"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="68p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="8.2NF,50V,">
+<attribute name="CAPACITANCE" value="8n2"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="8n2 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C822K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="8n2 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="8.2PF,50V,">
+<attribute name="CAPACITANCE" value="8p2"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="8p2 ±0p5"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C829D5GACTU"/>
+<attribute name="TOLERANCE" value="±0p5"/>
+<attribute name="VALUE" value="8p2 ±0p5 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="820NF,16V,">
+<attribute name="CAPACITANCE" value="820n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="820n ±10%"/>
+<attribute name="LINE2" value="16V X7R"/>
+<attribute name="MF" value="Walsin"/>
+<attribute name="MPN" value="0603B824K160CT"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="820n ±10% 16V X7R"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+<technology name="820PF,50V,">
+<attribute name="CAPACITANCE" value="820p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="820p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C821J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="820p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="82NF,50V,">
+<attribute name="CAPACITANCE" value="82n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="82n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C823K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="82n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="82PF,50V,">
+<attribute name="CAPACITANCE" value="82p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="82p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0603C820J5GACTU"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="82p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="N.C.,">
+<attribute name="CAPACITANCE" value="n.c."/>
+<attribute name="DIELECTRIC" value=""/>
+<attribute name="LINE1" value="n.c. "/>
+<attribute name="LINE2" value=" "/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="n.c.   "/>
+<attribute name="VOLTAGE" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CAPACITANCE" value="" constant="no"/>
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="LINE1" value="" constant="no"/>
+<attribute name="LINE2" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="1.2UF,16V,">
+<attribute name="CAPACITANCE" value="1u2"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="1u2 ±10%"/>
+<attribute name="LINE2" value="16V X5R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0805C125K4PACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1u2 ±10% 16V X5R"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+<technology name="1.5UF,16V,">
+<attribute name="CAPACITANCE" value="1u5"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="1u5 ±10%"/>
+<attribute name="LINE2" value="16V X5R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0805C155K4PACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1u5 ±10% 16V X5R"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+<technology name="1.8UF,16V,">
+<attribute name="CAPACITANCE" value="1u8"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="1u8 ±10%"/>
+<attribute name="LINE2" value="16V X5R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0805C185K4PACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1u8 ±10% 16V X5R"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+<technology name="15UF,25V,">
+<attribute name="CAPACITANCE" value="15u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="15u ±20%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C2012X5R1E156M125AC"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="15u ±20% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="180NF,50V,">
+<attribute name="CAPACITANCE" value="180n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="180n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C0805C184K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="180n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="2.2UF,50V,">
+<attribute name="CAPACITANCE" value="2u2"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="2u2 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL21B225KBYNNWE"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="2u2 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="22UF,25V,">
+<attribute name="CAPACITANCE" value="22u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="22u ±20%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL21A226MAQNNNE"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="22u ±20% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="270NF,50V,">
+<attribute name="CAPACITANCE" value="270n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="270n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Walsin"/>
+<attribute name="MPN" value="0805B274K500CT"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="270n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="3.3UF,50V,">
+<attribute name="CAPACITANCE" value="3u3"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="3u3 ±20%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C2012X5R1H335M125AB"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="3u3 ±20% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="33UF,6.3V,">
+<attribute name="CAPACITANCE" value="33u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="33u ±20%"/>
+<attribute name="LINE2" value="6V3 X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C2012X5R0J336M125AC"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="33u ±20% 6V3 X5R"/>
+<attribute name="VOLTAGE" value="6V3"/>
+</technology>
+<technology name="390NF,50V,">
+<attribute name="CAPACITANCE" value="390n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="390n ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="Walsin"/>
+<attribute name="MPN" value="0805B394K500CT"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="390n ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="4.7UF,50V,">
+<attribute name="CAPACITANCE" value="4u7"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="4u7 ±10%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL21A475KBQNNNE"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="4u7 ±10% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="560NF,25V,">
+<attribute name="CAPACITANCE" value="560n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="560n ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="Walsin"/>
+<attribute name="MPN" value="0805B564K250CT"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="560n ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="820NF,25V,">
+<attribute name="CAPACITANCE" value="820n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="820n ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="Walsin"/>
+<attribute name="MPN" value="0805B824K250CT"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="820n ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="N.C.,">
+<attribute name="CAPACITANCE" value="n.c."/>
+<attribute name="DIELECTRIC" value=""/>
+<attribute name="LINE1" value="n.c. "/>
+<attribute name="LINE2" value=" "/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="n.c.   "/>
+<attribute name="VOLTAGE" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="1210" package="C1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CAPACITANCE" value="" constant="no"/>
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="LINE1" value="" constant="no"/>
+<attribute name="LINE2" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="1.2UF,100V,">
+<attribute name="CAPACITANCE" value="1u2"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="1u2 ±20%"/>
+<attribute name="LINE2" value="100V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C1210C125M1RACTU"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="1u2 ±20% 100V X7R"/>
+<attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="18UF,16V,">
+<attribute name="CAPACITANCE" value="18u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="18u ±10%"/>
+<attribute name="LINE2" value="16V X5R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C1210C186K4PACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="18u ±10% 16V X5R"/>
+<attribute name="VOLTAGE" value="16V"/>
+</technology>
+<technology name="8.2UF,25V,">
+<attribute name="CAPACITANCE" value="8u2"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="8u2 ±10%"/>
+<attribute name="LINE2" value="25V X7R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1210X825K3RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="8u2 ±10% 25V X7R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="N.C.,">
+<attribute name="CAPACITANCE" value="n.c."/>
+<attribute name="DIELECTRIC" value=""/>
+<attribute name="LINE1" value="n.c. "/>
+<attribute name="LINE2" value=" "/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="n.c.   "/>
+<attribute name="VOLTAGE" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="C1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CAPACITANCE" value="" constant="no"/>
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="LINE1" value="" constant="no"/>
+<attribute name="LINE2" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="1.5UF,50V,">
+<attribute name="CAPACITANCE" value="1u5"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="1u5 ±20%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C1206C155M5REC7210"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="1u5 ±20% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="1.8UF,50V,">
+<attribute name="CAPACITANCE" value="1u8"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="1u8 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C1206C185K5RACAUTO"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1u8 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="10UF,50V,">
+<attribute name="CAPACITANCE" value="10u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="10u ±20%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL31A106MBHNNNE"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="10u ±20% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="2.7UF,25V,">
+<attribute name="CAPACITANCE" value="2u7"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="2u7 ±10%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C1206C275K3PACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="2u7 ±10% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="3.9UF,25V,">
+<attribute name="CAPACITANCE" value="3u9"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="3u9 ±10%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C1206C395K3PACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="3u9 ±10% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="33UF,25V,">
+<attribute name="CAPACITANCE" value="33u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="33u ±20%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C3216X5R1E336M160AC"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="33u ±20% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="47UF,25V,">
+<attribute name="CAPACITANCE" value="47u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="47u ±20%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C3216X5R1E476M160AC"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="47u ±20% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="560NF,100V,">
+<attribute name="CAPACITANCE" value="560n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="560n ±5%"/>
+<attribute name="LINE2" value="100V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C1206C564J1RACAUTO"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="560n ±5% 100V X7R"/>
+<attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="6.8UF,50V,">
+<attribute name="CAPACITANCE" value="6u8"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="6u8 ±20%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C3216X5R1H685M160AB"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="6u8 ±20% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="68UF,6.3V,">
+<attribute name="CAPACITANCE" value="68u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="68u ±20%"/>
+<attribute name="LINE2" value="6V3 X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C3216X5R0J686M160AB"/>
+<attribute name="TOLERANCE" value="±20%"/>
+<attribute name="VALUE" value="68u ±20% 6V3 X5R"/>
+<attribute name="VOLTAGE" value="6V3"/>
+</technology>
+<technology name="820NF,100V,">
+<attribute name="CAPACITANCE" value="820n"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="820n ±5%"/>
+<attribute name="LINE2" value="100V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C1206C824J1RACAUTO"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="820n ±5% 100V X7R"/>
+<attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="N.C.,">
+<attribute name="CAPACITANCE" value="n.c."/>
+<attribute name="DIELECTRIC" value=""/>
+<attribute name="LINE1" value="n.c. "/>
+<attribute name="LINE2" value=" "/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="n.c.   "/>
+<attribute name="VOLTAGE" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CAPACITANCE" value="" constant="no"/>
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="LINE1" value="" constant="no"/>
+<attribute name="LINE2" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="1.0UF,25V,">
+<attribute name="CAPACITANCE" value="1u"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="1u ±10%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="Murata Electronics"/>
+<attribute name="MPN" value="GRM155R61E105KA12D"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="1u ±10% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="100NF,50V,">
+<attribute name="CAPACITANCE" value="100n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="100n ±10%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="Murata Electronics"/>
+<attribute name="MPN" value="GRM155R61H104KE14J"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="100n ±10% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="10NF,50V,">
+<attribute name="CAPACITANCE" value="10n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="10n ±10%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1005X5R1H103K050BB"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="10n ±10% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="220NF,25V,">
+<attribute name="CAPACITANCE" value="220n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="220n ±10%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0402KRX5R8BB224"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="220n ±10% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="22NF,50V,">
+<attribute name="CAPACITANCE" value="22n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="22n ±10%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1005X5R1H223K050BB"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="22n ±10% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="22PF,50V,">
+<attribute name="CAPACITANCE" value="22p"/>
+<attribute name="DIELECTRIC" value="NP0"/>
+<attribute name="LINE1" value="22p ±5%"/>
+<attribute name="LINE2" value="50V NP0"/>
+<attribute name="MF" value="Samsung"/>
+<attribute name="MPN" value="CL05C220JB5NNWC"/>
+<attribute name="TOLERANCE" value="±5%"/>
+<attribute name="VALUE" value="22p ±5% 50V NP0"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="330NF,25V,">
+<attribute name="CAPACITANCE" value="330n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="470n ±10%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1005X5R1E334K050BB"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="330n ±10% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="33NF,50V,">
+<attribute name="CAPACITANCE" value="33n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="33n ±10%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="Murata Electronics"/>
+<attribute name="MPN" value="GRM155R61H333KE14D"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="33n ±10% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="470NF,25V,">
+<attribute name="CAPACITANCE" value="470n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="470n ±10%"/>
+<attribute name="LINE2" value="25V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="C1005X5R1E474K050BB"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="470n ±10% 25V X5R"/>
+<attribute name="VOLTAGE" value="25V"/>
+</technology>
+<technology name="47NF,50V,">
+<attribute name="CAPACITANCE" value="47n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="47n ±10%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="Murata Electronics"/>
+<attribute name="MPN" value="GRM155R61H473KE14D"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="47n ±10% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="68NF,50V,">
+<attribute name="CAPACITANCE" value="68n"/>
+<attribute name="DIELECTRIC" value="X5R"/>
+<attribute name="LINE1" value="68n ±10%"/>
+<attribute name="LINE2" value="50V X5R"/>
+<attribute name="MF" value="TDK"/>
+<attribute name="MPN" value="CGA2B3X5R1H683K050BB"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="68n ±10% 50V X5R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="N.C.,">
+<attribute name="CAPACITANCE" value="n.c."/>
+<attribute name="DIELECTRIC" value=""/>
+<attribute name="LINE1" value="n.c. "/>
+<attribute name="LINE2" value=" "/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="n.c.   "/>
+<attribute name="VOLTAGE" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="1812" package="C1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CAPACITANCE" value="" constant="no"/>
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="LINE1" value="" constant="no"/>
+<attribute name="LINE2" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+<technology name="2.7UF,50V,">
+<attribute name="CAPACITANCE" value="2u7"/>
+<attribute name="DIELECTRIC" value="X7R"/>
+<attribute name="LINE1" value="2u7 ±10%"/>
+<attribute name="LINE2" value="50V X7R"/>
+<attribute name="MF" value="KEMET"/>
+<attribute name="MPN" value="C1812C275K5RACTU"/>
+<attribute name="TOLERANCE" value="±10%"/>
+<attribute name="VALUE" value="2u7 ±10% 50V X7R"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="N.C.,">
+<attribute name="CAPACITANCE" value="n.c."/>
+<attribute name="DIELECTRIC" value=""/>
+<attribute name="LINE1" value="n.c. "/>
+<attribute name="LINE2" value=" "/>
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="TOLERANCE" value=""/>
+<attribute name="VALUE" value="n.c.   "/>
+<attribute name="VOLTAGE" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

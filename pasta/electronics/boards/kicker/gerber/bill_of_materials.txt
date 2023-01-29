@@ -1,0 +1,90 @@
+Part  Value                  MF                           MPN                 MOUSER               RESISTANCE POWER CAPACITANCE DIELECTRIC TOLERANCE VOLTAGE
+C101  270  µF                Würth Elektronik             875075661009                                                                     ±10%      35V(DC)
+C102  10u ±20% 50V X5R       Samsung                      CL31A106MBHNNNE                                           10u         X5R        ±20%      50V    
+C103  100n ±10% 50V X7R      Würth Elektronik             885012206095                                              100n        X7R        ±10%      50V    
+C104  100n ±10% 50V X7R      Würth Elektronik             885012206095                                              100n        X7R        ±10%      50V    
+C105  4u7 ±10% 50V X5R       Samsung                      CL21A475KBQNNNE                                           4u7         X5R        ±10%      50V    
+C106  100p ±5% 50V NP0       Würth Elektronik             885012006057                                              100p        NP0        ±5%       50V    
+C107  2n2 ±10% 50V X7R       Würth Elektronik             885012206085                                              2n2         X7R        ±10%      50V    
+C108  33n ±10% 50V X7R       Würth Elektronik             885012206092                                              33n         X7R        ±10%      50V    
+C109                         KEMET                        C0805C224J1RECTU                                          220nF       X7R        ±5%       100V   
+C110  n.c.                                                                                                          n.c.                                    
+C111  n.c.                                                                                                          n.c.                                    
+C112  1000u 250V             United Chemi-Con             ESMQ251VSN102MQ45S  661-ESMQ251VSN102MQ4                                                          
+C113  1000u 250V             United Chemi-Con             ESMQ251VSN102MQ45S  661-ESMQ251VSN102MQ4                                                          
+C201  47n ±10% 50V X7R       Würth Elektronik             885012206093                                              47n         X7R        ±10%      50V    
+C202  47n ±10% 50V X7R       Würth Elektronik             885012206093                                              47n         X7R        ±10%      50V    
+C203  1u ±10% 50V X5R        Samsung                      CL10A105KB8NNNC                                           1u          X5R        ±10%      50V    
+C204  1u ±10% 50V X5R        Samsung                      CL10A105KB8NNNC                                           1u          X5R        ±10%      50V    
+C205                         TDK                          C3225X7T2E334K200AA                                       330n        X7T        ±10%      250V   
+C206                         TDK                          C3225X7T2E334K200AA                                       330n        X7T        ±10%      250V   
+C207  10u ±20% 50V X5R       Samsung                      CL31A106MBHNNNE                                           10u         X5R        ±20%      50V    
+C208  10u ±20% 50V X5R       Samsung                      CL31A106MBHNNNE                                           10u         X5R        ±20%      50V    
+C301  100n ±10% 50V X7R      Würth Elektronik             885012206095                                              100n        X7R        ±10%      50V    
+C302  100n ±10% 50V X7R      Würth Elektronik             885012206095                                              100n        X7R        ±10%      50V    
+C303  100n ±10% 50V X7R      Würth Elektronik             885012206095                                              100n        X7R        ±10%      50V    
+C304  2u2 ±10% 50V X7R       Samsung                      CL21B225KBYNNWE                                           2u2         X7R        ±10%      50V    
+C305  100n ±10% 50V X7R      Würth Elektronik             885012206095                                              100n        X7R        ±10%      50V    
+D101                         Würth Elektronik             151054RS03000                                                                                     
+D102  1N4148                 Micro Commercial Components  1N4148W                                                                                           
+D103  STTH212U               STMicroelectronics           STTH212U                                                                                          
+D201  GB01SLT12-214          GeneSiC                      GB01SLT06-214       905-GB01SLT06-214                                                             
+D202  GB01SLT12-214          GeneSiC                      GB01SLT06-214       905-GB01SLT06-214                                                             
+D203  GB01SLT12-214          GeneSiC                      GB01SLT06-214       905-GB01SLT06-214                                                             
+D204  GB01SLT12-214          GeneSiC                      GB01SLT06-214       905-GB01SLT06-214                                                             
+H101                         Würth Elektronik             9774060360R                                                                                       
+H102                         Würth Elektronik             9774060360R                                                                                       
+H103                         Würth Elektronik             9774060360R                                                                                       
+J301                         Würth Elektronik             690367181672                                                                                      
+J302                         Würth Elektronik             66100311622                                                                                       
+J303                         Würth Elektronik             66100311622                                                                                       
+OP101 LTV352T                Lite-On                      LTV-816S            859-LTV-816S                                                                  
+OP201 LTV352T                Lite-On                      LTV-816S            859-LTV-816S                                                                  
+OP202 LTV352T                Lite-On                      LTV-816S            859-LTV-816S                                                                  
+Q101  FJT44TF                onsemi / Fairchild           FJT44TF                                                                                           
+Q102  TPH3300CNH             Toshiba                      TPH3300CNH          757-TPH3300CNHL1Q                                                             
+Q201  IXYT55N120A4HV         IXYS                         IXYT55N120A4HV      747-IXYT55N120A4HV                                                            
+Q202  IXYT55N120A4HV         IXYS                         IXYT55N120A4HV      747-IXYT55N120A4HV                                                            
+R101  270R ±1% 75V 0.1W      YAGEO                        RC0603FR-07270RL                         270R       0.1W                         ±1%       75V    
+R102                         TE Connectivity / Holsworthy CRGP2512F330K                            330k       2W                           ±1%       500V   
+R103                         TE Connectivity / Holsworthy CRGP2512F33K                             33k        2W                           1%        500V   
+R104                         Vishay / Dale                CRCW2512470KJNEGHP                       470k       1.5W                         ±5%       500V   
+R105                         YAGEO                        RE0603FRE0724K9L                         24k9       100mW                        ±1%       75V    
+R106  4R7 ±1% 75V 0.1W       YAGEO                        RC0603FR-074R7L                          4R7        0.1W                         ±1%       75V    
+R107                         YAGEO                        RC0603FR-07249KL                         249k       100mW                        ±1%       75V    
+R108                         YAGEO                        RC0603FR-0751K1L                         51k1       100mW                        ±1%       75V    
+R109                         YAGEO                        AC0603FR-136K04L                         6k04       100mW                        ±1%       75V    
+R110                         Panasonic                    ERJ-8BWFR015V                            15m        1W                           ±1%              
+R111  100k ±1% 200V 0.25W    YAGEO                        RC1206FR-07100KL                         100k       0.25W                        ±1%       200V   
+R112  n.c.                                                                                         n.c.                                                     
+R201  22R ±1% 75V 0.1W       YAGEO                        RC0603FR-0722RL                          22R        0.1W                         ±1%       75V    
+R202  22R ±1% 75V 0.1W       YAGEO                        RC0603FR-0722RL                          22R        0.1W                         ±1%       75V    
+R203  1k ±1% 75V 0.1W        YAGEO                        RC0603FR-071KL                           1k         0.1W                         ±1%       75V    
+R204  1k ±1% 75V 0.1W        YAGEO                        RC0603FR-071KL                           1k         0.1W                         ±1%       75V    
+R205  1k5 ±1% 75V 0.1W       YAGEO                        RC0603FR-071K5L                          1k5        0.1W                         ±1%       75V    
+R206  1k5 ±1% 75V 0.1W       YAGEO                        RC0603FR-071K5L                          1k5        0.1W                         ±1%       75V    
+R207  0R ±1% 75V 0.1W        YAGEO                        RC0603FR-070RL                           0R         0.1W                         ±1%       75V    
+R208  3R3 ±1% 75V 0.1W       YAGEO                        RC0603FR-073R3L                          3R3        0.1W                         ±1%       75V    
+R209  0R ±1% 75V 0.1W        YAGEO                        RC0603FR-070RL                           0R         0.1W                         ±1%       75V    
+R210  3R3 ±1% 75V 0.1W       YAGEO                        RC0603FR-073R3L                          3R3        0.1W                         ±1%       75V    
+R211  3R3                    TE Connectivity / Holsworthy 35603R3JT                                                                                         
+R212  3R3                    TE Connectivity / Holsworthy 35603R3JT                                                                                         
+R213  0R ±1% 75V 0.1W        YAGEO                        RC0603FR-070RL                           0R         0.1W                         ±1%       75V    
+R214  0R ±1% 75V 0.1W        YAGEO                        RC0603FR-070RL                           0R         0.1W                         ±1%       75V    
+R301  150R ±1% 75V 0.1W      YAGEO                        RC0603FR-07150RL                         150R       0.1W                         ±1%       75V    
+R302                         YAGEO                        RC2010JK-071ML                           1M         0.75W                        ±5%       200V   
+R303  150R ±1% 75V 0.1W      YAGEO                        RC0603FR-07150RL                         150R       0.1W                         ±1%       75V    
+R304  10k ±1% 75V 0.1W       YAGEO                        RC0603FR-0710KL                          10k        0.1W                         ±1%       75V    
+R305  100R ±1% 75V 0.1W      YAGEO                        RC0603FR-07100RL                         100R       0.1W                         ±1%       75V    
+R306  100R ±1% 75V 0.1W      YAGEO                        RC0603FR-07100RL                         100R       0.1W                         ±1%       75V    
+R307  100R ±1% 75V 0.1W      YAGEO                        RC0603FR-07100RL                         100R       0.1W                         ±1%       75V    
+R308  100R ±1% 75V 0.1W      YAGEO                        RC0603FR-07100RL                         100R       0.1W                         ±1%       75V    
+R309  100R ±1% 75V 0.1W      YAGEO                        RC0603FR-07100RL                         100R       0.1W                         ±1%       75V    
+T101  WE_FB_EFD25-750310988  Würth Elektronik             750310988                                                                                         
+U101  LT3748IMS              Analog Devices               LT3748IMS#PBF       LT3748IMS#TRPBF                                                               
+U201  UCC27532               Texas Instruments            UCC27532DBVT                                                                                      
+U202  UCC27532               Texas Instruments            UCC27532DBVT                                                                                      
+U203  NCP785AH150T1G         ON Semiconductor             NCP785AH150T1G      863-NCP785AH150T1G                                                            
+U204  NCP785AH150T1G         ON Semiconductor             NCP785AH150T1G      863-NCP785AH150T1G                                                            
+U301  AMC1304L05DWDW0016B_HV Texas Instruments            AMC1304L05DW                                                                                      
+Y301  DSC1123CI2-020.0000    Microchip Technology         DSC1123CI2-020.0000 579-DSC1123CI2020                                                             
