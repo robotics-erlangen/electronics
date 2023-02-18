@@ -1659,14 +1659,14 @@ Created 2014-06-04, Karrer Zheng&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="LTV816" prefix="OP">
+<deviceset name="LTV-352T" prefix="OP">
 <description>&lt;b&gt;OPTO COUPLER&lt;/b&gt;&lt;p&gt;
 Source: LITEON, LTV816.pdf</description>
 <gates>
 <gate name="G$1" symbol="OK" x="0" y="0"/>
 </gates>
 <devices>
-<device name="S" package="DIL4-SMD">
+<device name="" package="DIL4-SMD">
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
@@ -1676,8 +1676,8 @@ Source: LITEON, LTV816.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="MF" value="Lite-On"/>
-<attribute name="MOUSER" value="859-LTV-816S"/>
-<attribute name="MPN" value="LTV-816S"/>
+<attribute name="MOUSER" value="859-LTV-352T"/>
+<attribute name="MPN" value="LTV-352T"/>
 </technology>
 </technologies>
 </device>
