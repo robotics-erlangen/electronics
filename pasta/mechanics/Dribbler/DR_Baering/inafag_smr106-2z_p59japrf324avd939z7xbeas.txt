@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"SMR106-2Z";"";
+"TraceParts.PartVersion";"1.0.2";"";
+"SUPPLIER";"Schaeffler Technologies AG & Co. KG";"";
+"TraceParts.PartStatus";"Published";"";
+"TraceParts.PartNumber";"69-21032017-133612";"";
+"TraceParts.PartLanguage";"de";"";
+"DESIGN";"Rillenkugellager";"";
+"TraceParts.InstanceId";"69-21032017-1336121RGTK2P9MW2GNWRA32KR2FXXC";"";
+"TraceParts.PartTitle";"Rillenkugellager SMR..-2Z, Hauptabmessungen nach DIN 625-1, rostgeschützt, beidseitig Spaltdichtung";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartStatusId";"";"";
+"SELECTION";"SMR106-2Z";"";
+"TraceParts.ClassPath";"INAFAG:/F_INAFAG/69-21032017-133612";"";
